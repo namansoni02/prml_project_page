@@ -1,73 +1,63 @@
-SanpiClassify
-<div align="center"> <h3>Image Retrieval using CIFAR-10</h3> <p>A content-based image retrieval system leveraging HoG and CNN feature extraction techniques</p> <p> <a href=""><img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper"></a> <a href="https://github.com/vishalkishore/prml"><img src="https://img.shields.io/badge/GitHub-Code-blue" alt="GitHub"></a> <a href="https://www.cs.toronto.edu/~kriz/cifar.html"><img src="https://img.shields.io/badge/Dataset-CIFAR--10-green" alt="Dataset"></a> </p> </div>
-📝 Abstract
-Given an image query, the goal is to retrieve relevant images using HoG and CNN feature extraction, exploring classification and clustering techniques. Image Retrieval using CIFAR-10 aims to develop a content-based image retrieval (CBIR) system that leverages Histogram of Oriented Gradients (HoG) and Convolutional Neural Networks (CNN) for feature extraction. HoG, a traditional yet effective method, captures the shape and appearance of objects by computing gradient directions across small image cells, providing robust descriptors for object detection. Complementing this, CNNs extract hierarchical and complex features from images, enabling superior representation of textures, edges, and object parts.
+# SanpiClassify
 
-✨ Features
-Content-based image retrieval using CIFAR-10 dataset
+A content-based image retrieval system leveraging HoG and CNN feature extraction techniques using the CIFAR-10 dataset.
 
-Dual feature extraction techniques:
+---
 
-Histogram of Oriented Gradients (HoG)
+## Requirements
 
-Convolutional Neural Networks (CNN)
+- Python 3.8+
+- Libraries: `torch`, `torchvision`, `numpy`, `matplotlib`, `Pillow`
+- CIFAR-10 dataset (downloaded automatically)
 
-Classification and clustering for image retrieval
+---
 
-Interactive web interface for query submission
+## Installation
 
-🚀 Getting Started
-Prerequisites
-bash
+1. Clone the repository:
+git clone https://github.com/vishalkishore/prml.git
+cd prml
+
+
+2. Install dependencies:
 pip install -r requirements.txt
-Running the Project
-bash
+
+
+3. Run the project:
 python main.py
-📊 Dataset
-The project uses the CIFAR-10 dataset, which consists of 60,000 32x32 color images in 10 classes:
 
-Airplane
 
-Automobile
+---
 
-Bird
+## Usage
 
-Cat
+- Launch the application and input an image query.
+- Retrieve similar images based on HoG and CNN feature extraction.
 
-Deer
+---
 
-Dog
+## Related Projects
 
-Frog
+Explore similar projects or resources that inspired this work:
 
-Horse
+- [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+- [Content-Based Image Retrieval Systems](https://en.wikipedia.org/wiki/Content-based_image_retrieval)
 
-Ship
+---
 
-Truck
+## Credits
 
-Each class contains 6,000 images with 50,000 training and 10,000 test images.
+Special thanks to:
 
-📺 Demo
-View our Project Demonstration on YouTube.
+- [Vishal Kishore](https://www.linkedin.com/in/kishore-vishal/)
+- [Sirin Changulani](https://www.linkedin.com/in/sirin-changulani-7b69a927b/)
+- [Naman Soni](https://www.linkedin.com/in/naman-soni-a46931290)
+- [Aaditya Jain](https://www.linkedin.com/in/aaditya-jain-7b85b028b/)
+- [Arpita Deshmukh](https://www.linkedin.com/in/arpita-deshmukh-9ba60428a/)
 
-👥 Contributors
-Vishal Kishore
+---
 
-Sirin Changulani
+## License
 
-Naman Soni
-
-Aaditya Jain
-
-Arpita Deshmukh
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🙏 Acknowledgements
-CIFAR-10 Dataset
-
-University of Toronto
-
-<div align="center"> <strong>SanpiClassify</strong> - Made with ❤️ by the team </div>
+This project is licensed under the [MIT License](LICENSE).
